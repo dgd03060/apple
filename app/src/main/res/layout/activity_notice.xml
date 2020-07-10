@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoticeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="공지작성"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_border"
+        android:hint="제목"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+
+    <EditText
+        android:id="@+id/et_Name"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_bottom"
+        android:hint="작성자"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+
+    <EditText
+        android:id="@+id/et_date"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_border"
+        android:hint="작성일"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+
+    <EditText
+        android:id="@+id/et_content"
+        android:layout_width="376dp"
+        android:layout_height="309dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_border"
+        android:hint="내용"
+        android:padding="10dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/noticeButton"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorGray"
+        android:text="작성 완료"
+        android:textColor="@android:color/background_light"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
+
+

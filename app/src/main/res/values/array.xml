@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="month">
+        <item>01월</item>
+        <item>02월</item>
+        <item>03월</item>
+        <item>04월</item>
+        <item>05월</item>
+        <item>06월</item>
+        <item>07월</item>
+        <item>08월</item>
+        <item>09월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="place">
+        <item>서울</item>
+        <item>인천</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>제주도</item>
+    </string-array>
+    <string-array name="universityArea">
+        <item>뮤지컬</item>
+        <item>연극</item>
+        <item>콘서트</item>
+        <item>무용</item>
+        <item>클래식/오페라</item>
+        <item>마술</item>
+        <item>국악</item>
+    </string-array>
+    <string-array name="major">
+        <item>서울</item>
+        <item>인천</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>부산</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>제주도</item>
+    </string-array>
+    <string-array name="musicalMajor">
+        <item>라이선스</item>
+        <item>오리지널</item>
+        <item>창작</item>
+        <item>어린이/가족</item>
+        <item>뮤지컬</item>
+        <item>퍼포먼스</item>
+        <item>전체</item>
+    </string-array>
+    <string-array name="theaterMajor">
+        <item>연극</item>
+        <item>어린이/가족</item>
+    </string-array>
+    <string-array name="concertMajor">
+        <item>콘서트</item>
+        <item>락/메탈</item>
+        <item>발라드/<![CDATA[R&B
+        ]]></item>
+        <item>댄스</item>
+        <item>포크</item>
+        <item>트로트</item>
+        <item>힙합/랩</item>
+        <item>클럽뮤직</item>
+        <item>재즈/블루스</item>
+        <item>탱고</item>
+        <item>개그</item>
+    </string-array>
+    <string-array name="muyMajor">
+        <item>발레</item>
+        <item>한국무용</item>
+        <item>현대무용</item>
+        <item>해외전통무용</item>
+        <item>댄스시어터</item>
+        <item>무용</item>
+        <item>어린이/가족</item>
+        </string-array>
+    <string-array name="operaMajor">
+            <item>클래식</item>
+        <item>오페라</item>
+        <item>크로스오버</item>
+        <item>어린이/가족</item>
+        </string-array>
+    <string-array name="magicMajor">
+        <item>마술</item>
+        <item>서커스</item>
+    </string-array>
+    <string-array name="koreaMajor">
+        <item>국악</item>
+        <item>크로스오버</item>
+    </string-array>
+</resources>

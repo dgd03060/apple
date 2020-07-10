@@ -1,0 +1,126 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ManagementActivity"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingRight="10dp">
+
+        <Spinner
+            android:id="@+id/yearSpinner"
+            android:layout_width="120dp"
+            android:layout_height="35sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round_bottom"></Spinner>
+
+        <Spinner
+            android:id="@+id/termSpinner"
+            android:layout_width="100dp"
+            android:layout_height="35sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round_bottom"></Spinner>
+
+        <Spinner
+            android:id="@+id/areaSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="35sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round_bottom"></Spinner><![CDATA[
+        />
+
+    ]]>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingRight="10dp">
+
+        <Spinner
+            android:id="@+id/artistSpinner"
+            android:layout_width="300dp"
+            android:layout_height="35sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/round_bottom"></Spinner>
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorGray"
+            android:text="조건검색"
+            android:textColor="#ffffff"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_border"
+        android:hint="장르, 출연진, 제목을 검색하세요."
+        android:padding="5dp"
+        android:textColor="@android:color/background_dark"
+        android:textColorHint="@android:color/background_dark"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView"
+            android:dividerHeight="10dp"
+            android:divider="#ffffff"
+            android:padding="5dp"
+            ></ListView>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/listView2"
+            android:dividerHeight="10dp"
+            android:divider="#ffffff"
+            android:padding="5dp"
+            ></ListView>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
